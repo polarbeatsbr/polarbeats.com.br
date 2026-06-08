@@ -1,5 +1,8 @@
 // POLAR BEATS — PREMIUM SCRIPTS & INTERACTION SYSTEM
 
+// Enable reveal animations (progressive enhancement — content visible by default if JS fails)
+document.documentElement.classList.add('js-ready');
+
 // 1. Navigation & Mobile Drawer
 window.addEventListener('scroll', () => {
   const navFix = document.querySelector('.nav-fix');
